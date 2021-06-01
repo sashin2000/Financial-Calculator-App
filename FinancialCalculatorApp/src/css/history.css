@@ -1,0 +1,36 @@
+.root{
+    -fx-background-color: black;
+    -fx-grid-lines-visible: true;
+    -fx-max-height: 50px;
+}
+
+.label{
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+    -fx-text-fill: aliceblue;
+    -fx-font-family: "Lucida Sans";
+}
+
+#header{
+    -fx-alignment: center;
+    -fx-font-size: 35px;
+    -fx-text-fill: aliceblue;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-weight: bold;
+}
+
+#btnBack{
+    -fx-text-fill: aliceblue;
+    -fx-background-color: #2d2d2d;
+    -fx-background-radius: 0px;
+    -fx-font-family: "Lucida Sans";
+    -fx-cursor: hand;
+}
+
+#btnBack:hover{
+    -fx-background-color: dimgrey;
+}
+
+#anchPane{
+    -fx-background-color: black;
+}

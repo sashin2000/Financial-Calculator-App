@@ -1,0 +1,86 @@
+.root{
+    -fx-background-color: black;
+    -fx-alignment: top-center;
+}
+
+.button{
+    -fx-font-size: 25px;
+    -fx-text-fill: aliceblue;
+    -fx-background-color: #2d2d2d;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 120px;
+    -fx-background-radius: 0px;
+    -fx-font-family: "Lucida Sans";
+    -fx-cursor: hand;
+}
+
+.button:hover{
+    -fx-background-color: dimgrey;
+}
+.label{
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+    -fx-text-fill: aliceblue;
+    -fx-font-family: "Lucida Sans";
+}
+
+.text-field{
+    -fx-font-size: 18px;
+}
+
+#header{
+    -fx-alignment: center;
+    -fx-font-size: 35px;
+    -fx-text-fill: aliceblue;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-weight: bold;
+}
+
+#monthlyPay{
+    -fx-font-size: 28px;
+    -fx-text-fill: aliceblue;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-weight: bold;
+}
+
+#btnBack{
+    -fx-text-fill: aliceblue;
+    -fx-background-color: #2d2d2d;
+    -fx-background-radius: 0px;
+    -fx-font-family: "Lucida Sans";
+    -fx-cursor: hand;
+}
+
+#btnBack:hover{
+    -fx-background-color: dimgrey;
+}
+
+#keyboard{
+    -fx-alignment: top-center;
+}
+
+#splitBtnMinus{
+    -fx-pref-width: 60px;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+#splitBtnDot{
+    -fx-pref-width: 60px;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+    -fx-font-family: "Bernard MT Condensed";
+}
+
+#btnCalculate{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 100px;
+}
+
+#btnHistory{
+    -fx-pref-width: 140px;
+    -fx-pref-height: 50px;
+}
+
+#lblError{
+    -fx-text-fill: crimson;
+}

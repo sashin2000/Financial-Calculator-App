@@ -1,0 +1,25 @@
+.root{
+    -fx-background-color: black;
+}
+
+.button{
+    -fx-font-size: 25px;
+    -fx-text-fill: aliceblue;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 300px;
+    -fx-background-color: #2d2d2d;
+    -fx-background-radius: 0px;
+    -fx-cursor: hand;
+    -fx-font-family: "Lucida Sans";
+}
+
+.button:hover{
+    -fx-background-color: dimgrey;
+}
+.label{
+    -fx-alignment: center;
+    -fx-font-size: 45px;
+    -fx-text-fill: aliceblue;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-weight: bold;
+}
